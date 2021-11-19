@@ -21,4 +21,4 @@ async def on_message(message):
             output = ("Name: " + data['longName'] + "\n" + "Ticker: " + data['symbol'] + "\n" + "Current Price: " + str(data['currentPrice']) + data['currency'] + "\n" + "Dividend: " + str(data['dividendRate']) + data['currency'])
         await message.channel.send(output)
 
-client.run('OTExMDA2MjEzNDM5OTAxNzQ3.YZbGpg.aUp2l7bq-LneubkIJihwqHxtS1I')	# Discord bot API key goes here
+client.run('')	# Discord bot API key goes here
